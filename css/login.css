@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    height: 47px;
+    border-bottom: 1px solid #f5f5f5;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+.headlogo{
+    width: 56px;
+    height: 26px;
+    margin-top: 10px;
+    margin-left: 636px;
+    background-image: url('https://imgcache.qq.com/open/connect/widget/pc/login/img/qqlogo_2022.png');
+    background-size: cover;
+}
+.combine{
+    width: 433px;
+    /* height: 331px; */
+    border-right: 1px solid #f5f5f5;
+    margin: 10px 0px 0px 636px;
+    box-sizing: border-box;
+    float: left;
+}
+.title{
+    font-size: 20px;
+    line-height: 28px;
+    margin: 16px 0px 6px;
+    text-align: center;
+}
+.qlogin{
+    color: #000;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 16px;
+    zoom: 1
+}
+.qlogin a{
+    color: #2e77e5;
+}
+.plogin{
+    display: none;
+    color: #000;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 16px;
+    zoom: 1
+}
+.plogin a{
+    color: #2e77e5;
+}
+.qlogin_show{
+    width: 315px;
+    height: 190px;
+    left: 50%;
+    margin: 0px auto;
+    padding-top: 10px;
+    /* display: none; */
+}
+.qrcode{
+    width: 100%;
+    height: 120px;
+}
+.qrcode span{
+    display: block;
+    text-align: center;
+}
+.qrcode span img{
+    width: 85px;
+    height: 85px;
+    display: inline;
+    margin: 0 auto;
+}
+
+.plogin_show{
+    width: 315px;
+    height: 190px;
+    left: 50%;
+    margin: 0px auto;
+    padding-top: 10px;
+    display: none;
+}
+.name{
+    text-align: center;
+}
+.button{
+    text-align: center;
+}
+.pass{
+    text-align: center;
+}
+.name input{
+    margin-bottom:12px;
+    width: 232px;
+    position: relative;
+    height: 16px;
+    padding: 10px 0 10px 16px;
+    line-height: 16px;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    background: 0 0;
+    color: #333;
+    font-size: 13px;
+    outline: none;
+}
+.pass input{
+    margin-bottom: 12px;
+    width: 232px;
+    position: relative;
+    height: 16px;
+    padding: 10px 0 10px 16px;
+    line-height: 16px;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    background: 0 0;
+    color: #333;
+    font-size: 13px;
+    outline: none;
+}
+.button button{
+    margin-bottom: 20px;
+    width: 250px;
+    height: 38px;
+    line-height: 18px;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+    height: 38px;
+    border-radius: 4px;
+    background-color: #09F;
+    padding: 10px 0 10px 16px;
+}
+
+.button_hide{
+    width: 100%;
+    text-align: center;
+}
+.button_hide a{
+    display: inline-block;
+    font-size: 12px;
+    color: #333;
+    margin-left:-4px;
+    margin:0px 20px;
+}
+.passlogin{
+    cursor: pointer;
+}
+#Retrieve{
+    display: none;
+}
+
+.main_right{
+    width: 227px;
+    height: 298px;
+    /* background-color: #09F; */
+    float: left;
+}
